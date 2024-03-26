@@ -10,5 +10,10 @@ declare module 'vue' {
     copy: typeof import('./src/components/HelloWorld copy.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     Home: typeof import('./src/components/Home.vue')['default']
+    MainContent: typeof import('./src/components/MainContent.vue')['default']
+    Navigation: typeof import('./src/components/Navigation.vue')['default']
+    SideNav: typeof import('./src/components/SideNav.vue')['default']
+    TopNav: typeof import('./src/components/TopNav.vue')['default']
+    VideoCard: typeof import('./src/components/VideoCard.vue')['default']
   }
 }

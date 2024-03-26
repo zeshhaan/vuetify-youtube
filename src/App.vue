@@ -1,11 +1,11 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <Navigation>
+        <template #main-content>
+          <MainContent />
+        </template>
+      </Navigation>
     </v-main>
   </v-app>
 </template>
-
-<script setup lang="ts">
-//
-</script>
